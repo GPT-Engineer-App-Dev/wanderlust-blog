@@ -1,7 +1,7 @@
-import { Box, Container, Flex, Heading, Link, Text, VStack, HStack, Spacer, IconButton, Button } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Link, Text, VStack, HStack, Spacer, IconButton, Button, useColorMode } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
-import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaInstagram, FaSun, FaMoon } from "react-icons/fa";
 
 const Index = () => {
   const [posts, setPosts] = useState([
